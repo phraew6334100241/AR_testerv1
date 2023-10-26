@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>บ่อน้ำศักดิ์สิทธิ์</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+  </head>
+  <body>
+    <a-scene
+      vr-mode-ui="enabled: false"
+      arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
+      <a-text
+      value="น้ำโบราณที่มีบันทึกในหนังสือใบลานที่เขียนเป็นภาษามคธ เรียกชื่อว่า สระมังคละน้ำเที่ยงหมัน เมื่อครั้งได้อัญเชิญพระบรมสารีริกธาตุของพระ พุทธเจ้าบรรจุไว้ในองค์พระธาตุได้เกิดปรากฏการณ์ประหลาดมีสายน้ำพวยพุ่งออกมาจากพื้นดิน พระมหาเทพหลวงและพระมหาเทพพล พระภิกษุที่ดูแลองค์พระธาตุ ได้สังเกตเห็นว่ามีสายน้ำพุ่งขึ้นมาตลอดเวลาจากปล่องภูพญานาคที่เฝ้ารักษาพระธาตุบังพวน จึงได้ชักชวนญาติโยมขุดสระรองรับน้ำเอาไว้ และสร้างรูปปั้นพญานาค 7เศียรไว้กลางสระแห่งนี้ รูปแบบศิลปะแบบล้านช้าง ในสมัยพระเจ้าวิชลราช กษัตริย์ล้านช้างได้เสด็จมานมัสการพระธาตุ ช่วงพ.ศ. 2043 – 2063 โปรดให้มีการปรับปรุงสระน้ำแห่งนี้และนิมนต์พระคุณเจ้าจัดทำพิธีมหาพุทธาภิเษก สระมุจลินท์ถือเป็นบ่อน้ำศักดิ์สิทธิ์ และนำน้ำศักดิ์สิทธิแห่งนี้ไปใช้ในพิธีสำคัญในราชสำนักล้านช้างเป็นต้นมา"
+      look-at="[gps-camera]"
+      scale="10 10 10"
+      gps-entity-place="latitude: 17.820993; longitude: 102.737271;"
+    ></a-text>
+      <a-camera gps-camera rotation-reader> </a-camera>
+    </a-scene>
+  </body>
+</html>

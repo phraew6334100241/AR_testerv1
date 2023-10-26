@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>โบสถ์</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+  </head>
+  <body>
+    <a-scene
+      vr-mode-ui="enabled: false"
+      arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
+      <a-text
+      value="ถือเป็นอาคารที่สำคัญภายในวัดเนื่องจากเป็นสถานที่ที่พระภิกษุสงฆ์ใช้ทำ สังฆกรรมซึ่งแต่เดิมในการทำสังฆกรรมของ พระภิกษุสงฆ์จะ ใช้เพียงพื้นที่โล่ง ๆ ที่กำหนดขอบเขตพื้นที่สังฆกรรมโดยการกำหนดตำแหน่ง“สีมา” เท่านั้น แต่ในปัจจุบันจากการมีผู้บวชมากขึ้น อีกทั้งภายใน พระอุโบสถมักประดิษฐานพระประธานที่เป็นพระพุทธรูปองค์สำคัญ ๆ ทำให้มีผู้มาสักการบูชาและร่วมทำบุญเป็นจำนวนมาก พระอุโบสถจึงถูกสร้าง ขึ้นเป็นอาคารถาวรและมักมี การประดับตกแต่งอย่างสวยงาม"
+      look-at="[gps-camera]"
+      scale="10 10 10"
+      gps-entity-place="latitude: 17.820993; longitude: 102.737271;"
+    ></a-text>
+      <a-camera gps-camera rotation-reader> </a-camera>
+    </a-scene>
+  </body>
+</html>

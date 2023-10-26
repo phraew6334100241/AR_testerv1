@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>พระอุปคุต</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+  </head>
+  <body>
+    <a-scene
+      vr-mode-ui="enabled: false"
+      arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
+      <a-text
+      value="เชื่อกันมาว่าพระอุปคุตมีอิทธิฤทธิ์ปราบท้าววสวัตตีมีเรื่องเล่ามาว่าประมาณปลายพุทธศตวรรษที่2หลังพุทธปรินิพพานณนครปาตลีบุตราชธานี(ปัจจุบันคือเมืองปัฏนา ภาคใต้ของประเทศอินเดีย)พระเจ้าอโศกมหาราชผู้ครองราชสมบัติในขณะนั้นทรงเลื่อมใสในพระพุทธศาสนาเป็นอย่างยิ่งได้ฉลองสมโภชพระสถูปเจดีย์ทั้งหมดที่พระองค์สร้างอย่างยิ่งใหญ่ ตลอด 7 ปี 7 เดือน 7 วัน แต่ถูกพญามารมาผจญ ท่านจึงนิมนต์พระอุปคุตไปปราบพญามารจนยอมแพ้[1] จากนั้นพระอุปคุตก็มีชื่อเสียงในทางปราบมาร ท่านมีอีกชื่อว่า พระบัวเข็ม
+      ปัจจุบันยังมีความเชื่อในหมู่ชาวไทยวนว่า พระบัวเข็มหรือพระอุปคุตยังมีชีวิตอยู่ ในทุกวันขึ้น 15 ค่ำที่ตรงกับวันพุธ ชาวไทยวนจะเรียกว่าเป็น วันเป็งปุ๊ด พระอุปคุตจะออกบิณฑบาตในร่างเณรน้อย และจะออกมาเวลาเที่ยงคืน ด้วยเหตุนี้จึงเกิดประเพณีตักบาตรกลางคืนขึ้น"
+      look-at="[gps-camera]"
+      scale="10 10 10"
+      gps-entity-place="latitude: 17.820993; longitude: 102.737271;"
+    ></a-text>
+      <a-camera gps-camera rotation-reader> </a-camera>
+    </a-scene>
+  </body>
+</html>
