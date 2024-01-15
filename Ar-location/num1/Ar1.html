@@ -12,13 +12,12 @@
     <a-scene
       vr-mode-ui="enabled: false"
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
-      <a-text
-        value="Well Come to Pathad"
-        position="0 2 1"
+  <a-image
+        src="\Data-ar\1\local\js1.png"
         look-at="[gps-camera]"
         scale="20 20 20"
-        gps-entity-place="latitude:16.4220804; longitude:102.8226338;">
-      </a-text>
+        gps-entity-place="latitude:17.821043; longitude:102.737357;">
+  </a-image>
 
       <a-video
         src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/02641d86970b1256a43b42700dbd3dfcbdb3a9a9/Data-ar/1/local/jd1.mp4"
@@ -28,7 +27,7 @@
         scale="50 50 50"
         gps-entity-place="latitude:16.4220808; longitude:102.8226334;">
       </a-video>
-      
+
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
