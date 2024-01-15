@@ -3,22 +3,30 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>พระอุปคุต</title>
+    <title>พระธาตุบังพวน</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
   </head>
   <body>
-    <a-scene
+  <a-scene
       vr-mode-ui="enabled: false"
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
-      <a-image
-  src="/Data-ar/js5.png"
+  <a-image
+  src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/db5bdfeb878a1065d16ef13bfc4b67ce21ad73b7/Data-ar/1/local/js1.png"
   look-at="[gps-camera]"
-  scale="20 20 20"
-  gps-entity-place="latitude:17.821043; longitude:102.737357;">
+  scale="1.5 1.5 1.5"
+  gps-entity-place="latitude:16.422032; longitude:102.822602;">
   </a-image>
-      <a-camera gps-camera rotation-reader> </a-camera>
-    </a-scene>
+
+  <a-image
+  src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/cd14552048176aca40c3e7c9272e72f7ab694591/Data-ar/1/local/jd1.mp4"
+  look-at="[gps-camera]"
+  scale="1.5 1.5 1.5"
+  gps-entity-place="latitude:16.422001; longitude:102.822609;">
+  </a-image>
+
+  <a-camera gps-camera rotation-reader> </a-camera>
+  </a-scene>
   </body>
 </html>
