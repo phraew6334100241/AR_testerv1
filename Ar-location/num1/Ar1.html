@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>เจดีย์</title>
+    <title>โบสถ์</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
@@ -12,23 +12,19 @@
     <a-scene
       vr-mode-ui="enabled: false"
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
-  <a-image
-        src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/ffd784a103e9b8e7f4ff9919026f73ecca5f6e46/Data-ar/1/local/js1.png"
-        look-at="[gps-camera]"
-        scale="20 20 20"
-        position="0 2 -5"
-        gps-entity-place="latitude:16.422004; longitude:102.822850;">
+      <a-image
+  src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/db5bdfeb878a1065d16ef13bfc4b67ce21ad73b7/Data-ar/1/local/js1.png"
+  look-at="[gps-camera]"
+  scale="10 10 10"
+  gps-entity-place="latitude:16.422032; longitude:102.822602;">
   </a-image>
-      <a-video
-        src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/02641d86970b1256a43b42700dbd3dfcbdb3a9a9/Data-ar/1/local/jd1.mp4"
-        look-at="[gps-camera]"
-        position="10 2 1"
-        scale="50 50 50"
-        gps-entity-place="latitude:16.422004; longitude:102.822850;">
 
-
-      </a-video>
-
+  <a-vdeo
+  src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/db5bdfeb878a1065d16ef13bfc4b67ce21ad73b7/Data-ar/1/local/jd1.mp4"
+  look-at="[gps-camera]"
+  scale="10 10 10"
+  gps-entity-place="latitude:16.422032; longitude:102.822602;">
+  </a-vdeo>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
