@@ -15,16 +15,11 @@
       <!-- เพิ่มสิ่งต่าง ๆ ที่คุณต้องการให้ปรากฎใน AR ใน Marker นี้ -->
       <a-marker preset="hiro">
         <!-- เพิ่มไฟล์ .glb ใน a-entity gltf-model -->
-        <a-entity gltf-model="\jd.glb" scale="10 10 10"></a-entity>
+        <a-entity gltf-model="\gg.glb" scale="1 1 1" position="0 1 0"
+        rotation="-90 0 0"
+        look-at="[gps-camera]"></a-entity>
       </a-marker>
-      <a-video
-        src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/1a24e910a5ce9bea9590577ade978267e69efdb6/Data-ar/1/local/1.mp4"
-        position="0 2 -5"
-        rotation="0 0 0"
-        look-at="[gps-camera]"
-        scale="200 200 200"
-        gps-entity-place="latitude:16.4220808; longitude:102.8226334;">
-      </a-video>
+      
       <!-- สร้าง Camera สำหรับ AR -->
       <a-entity camera></a-entity>
     </a-scene>
