@@ -9,24 +9,28 @@
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
   </head>
   <body>
-  <a-scene
-      vr-mode-ui="enabled: false"
-      arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
-  <a-image
-  src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/bd20712e95f000695bddcd159cdc48ebd2d08ff9/Data-ar/1/local/js3.png"
+    <a-scene
+        vr-mode-ui="enabled: false"
+        arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
+      <a-entity gltf-model="" 
+          scale="2 2 2" position="0 0 0"
+          rotation="0 0 0"  
+          gps-entity-place="latitude:16.422034; longitude:102.822690">
+      </a-entity>
+      <a-image
+  src=""
   look-at="[gps-camera]"
   scale="2 2 1.5"
-  gps-entity-place="latitude:17.7437764; longitude:102.6822423;">
+  gps-entity-place="latitude:17.7443565; longitude:102.681951;">
   </a-image>
 
   <a-image
-  src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/a8fefd3fdbc06c104b746f1f92ac2b96f23b23ef/Data-ar/1/local/mujarin3.mp4"
+  src=""
   look-at="[gps-camera]"
   scale="2 2 1.5"
-  gps-entity-place="latitude:17.743768; longitude:102.682202;">
+  gps-entity-place="latitude:17.744308; longitude:102.681998;">
   </a-image>
-
-  <a-camera gps-camera rotation-reader> </a-camera>
-  </a-scene>
+      <a-camera gps-camera rotation-reader></a-camera>
+    </a-scene>
   </body>
 </html>
