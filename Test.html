@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ราชายตนะเจดีย์</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+  </head>
+  <body>
+  <a-scene
+      vr-mode-ui="enabled: false"
+      arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
+      <a-entity gltf-model="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/771dfed87a1fbb8ae2272e806cf37e65f03f2635/Data-ar/1/marker/metascan_20240115-1425_%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%95%E0%B8%99%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C_%E0%B9%80%E0%B8%A5%E0%B8%826.glb" 
+          scale="2 2 2" position="0 0 0"
+          rotation="0 0 0"  
+          gps-entity-place="latitude:17.803497; longitude:102.747747">
+      </a-entity>
+  <a-image
+  src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/4724dad7910ed320d4fd2b8284c2cfcec7abbe76/Data-ar/1/local/js6.png"
+  look-at="[gps-camera]"
+  scale="2 2 1.5"
+  gps-entity-place="latitude:17.8035553; longitude:102.7480449;">
+  </a-image>
+
+  <a-image
+  src="https://rawcdn.githack.com/phraew6334100241/AR_testerv1/4724dad7910ed320d4fd2b8284c2cfcec7abbe76/Data-ar/1/local/rasha6.mp4"
+  look-at="[gps-camera]"
+  scale="2 2 1.5"
+  gps-entity-place="latitude:17.803440; longitude:102.747736;">
+
+
+  </a-image>
+
+  <a-camera gps-camera rotation-reader> </a-camera>
+  </a-scene>
+  </body>
+</html>
